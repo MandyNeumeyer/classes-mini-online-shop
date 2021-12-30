@@ -34,7 +34,7 @@ Examples:
 * A pack of 5 socks for 4.99 €
 
 ---
-## 2 shopping cart
+## 2. shopping cart
 
 :orange_circle: Write another class `Cart`, as a template of the shopping cart of an online shop.
 
