@@ -19,8 +19,8 @@ The class should have 2 methods:
 * `toText()` - returning a string with the products name, gross price, the containedVAT and the net price. 
 
 ```javascript
-    => 24.00 € VAT incl.
-    => Adidas running shoes 150.00 € in total. 24.00 € VAT incl. (16%).
+    // => 24.00 € VAT incl.
+    // => Adidas running shoes 150.00 € in total. 24.00 € VAT incl. (16%).
 ```
 
 :orange_circle: Create some instance objects from your template class with the `new` keyword 
@@ -73,5 +73,5 @@ Call the `.getTotalItemsPrice()` method, to print your shopping cart's total pri
 
 
 ```javascript
-    => The total for 2 items in your cart amounts to 249.99 €.
+    // => The total for 2 items in your cart amounts to 249.99 €.
 ```
