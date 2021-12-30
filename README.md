@@ -1,11 +1,11 @@
 **This exercise covers the JavaScript concepts of classes and instance objects**
 
-# Mini Online-Shop :shopping_cart:
+# :shopping_cart: Mini Online-Shop 
 
 ---
 
 
-## 1 products
+## 1. product
 :orange_circle: Write a JavaScript class `Product`, as a template of products of an online shop.
 
 The class should have 2 properties:
@@ -55,7 +55,7 @@ Create two methods for the shopping cart class:
  
 
 
-Create an instance of your shopping cart with the `new` keyword.
+:orange_circle: Create an instance of your shopping cart with the `new` keyword.
 ```javascript
 let cart = new Cart();
 ```
