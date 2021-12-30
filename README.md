@@ -50,7 +50,7 @@ Create two methods for the shopping cart class:
 * `getProductInfoCart()`, that takes no parameters.
     * the method should iterate over the array of products
     * for every product contained in the list, call the `toText()` method and print it to the console.
-* `.getTotalItemsPrice()`, that takes no parameters.
+* `getTotalItemsPrice()`, that takes no parameters.
     * the method should iterate over the array of products and calculate the total of all shopped items as well as the total price for those items, which are currently in the cart.
  
 
