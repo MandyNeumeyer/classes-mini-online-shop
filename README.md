@@ -16,7 +16,7 @@ The constructor should take 2 parameters initializing those properties.
 
 The class should have 2 methods:
 * `containedVAT()` - returning 16% of the products price as VAT (value-added tax)
-* `toText()` - returning a string with the products name, gross price, the containedVAT and the net price. 
+* `toText()` - returning a string with the products name, gross price and the contained VAT. 
 
 ```javascript
     // => 24.00 € VAT incl.
