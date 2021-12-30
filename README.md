@@ -28,9 +28,9 @@ The class should have 2 methods:
 Examples:
 * tracksuit for 99.99 €
     ```javascript
-    let shoes = new Product("tracksuit", 99.99);
+    let tracksuit = new Product("tracksuit", 99.99);
     ```
-* Puma running shoes 165.99 €
+* Puma running shoes 85.99 €
 * A pack of 5 socks for 4.99 €
 
 ---
