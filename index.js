@@ -24,12 +24,12 @@ class Cart {
       this.products.push(shoppedProduct)
       return `Your shopping cart now contains ${this.products.length} products`
     } else {
-      return `Unfortunately, this product is not available in our shop!`
+      return `This is not available in our shop!`
     }
   }
 
   getProductInfoCart() {
-    return this.products.map(item => item.toText())
+    return this.products.forEach(item => console.log(item.toText()))
   }
 
   getTotalPriceCart() {
@@ -40,7 +40,7 @@ class Cart {
 
 // Create products
 const adidasShoes = new Product("Adidas running shoes", 150.0)
-const paintingSet = new Product("tracksuit", 99.99999)
+const tracksuit = new Product("Puma tracksuit", 99.99999)
 
 // Test products
 console.log(adidasShoes.toText())
@@ -52,6 +52,6 @@ const cart = new Cart()
 // Test cart
 console.log(cart.addProduct({ name: 'painting brush', price: 20 })) // Fails; not a product!
 console.log(cart.addProduct(adidasShoes))
-console.log(cart.addProduct(paintingSet))
+console.log(cart.addProduct(tracksuit))
 console.log(cart.getTotalPriceCart())
 console.log(cart.getProductInfoCart())
