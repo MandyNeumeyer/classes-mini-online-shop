@@ -2,7 +2,7 @@
 
 **This exercise covers the JavaScript concepts of classes and instance objects**
 
-Your task is to create a Product and Cart class representing an onlimne shop.
+Your task is to create a Product and Cart class representing an online shop.
 
 ---
 
@@ -33,7 +33,7 @@ tracksuit.containedVAT() // 24.00 € VAT incl.
 
 ## 2. Cart
 
-Write a `Product` class that should have one property
+Write another class `Cart`, which should have one property
 
 - `products`, an array of products
 

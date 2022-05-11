@@ -55,3 +55,5 @@ console.log(cart.addProduct(adidasShoes))
 console.log(cart.addProduct(tracksuit))
 console.log(cart.getTotalPriceCart())
 console.log(cart.getProductInfoCart())
+
+console.log(cart.addProduct("potato"))
