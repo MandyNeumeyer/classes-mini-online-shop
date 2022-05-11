@@ -1,4 +1,4 @@
-# :shopping_car0t: Mini Online-Shop
+# :shopping_cart: Mini Online-Shop
 
 **This exercise covers the JavaScript concepts of classes and instance objects**
 
