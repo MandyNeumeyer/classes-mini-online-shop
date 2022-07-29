@@ -43,8 +43,8 @@ Create two methods for the Cart class:
 
 - `addProduct(shoppedProduct)` that takes one parameter
   - The method should first test, if `shoppedProduct` is an instance of the `Product` class [mdn instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
-  - if `shoppedProduct` is an instance of Product add it to the array of products and returns a string with the amount of products in the cart.
-  - if `shoppedProduct` is not an instance of Product, return a string state that the product is not available in the shop
+  - if `shoppedProduct` is an instance of Product add it to the array of products and return a string with the amount of products in the cart.
+  - if `shoppedProduct` is not an instance of Product, return a string and state that the product is not available in the shop
 - `getProductInfoCart()` that takes no parameters
   - the method should iterate over the array of products
   - for every product contained in the list, call the `toText()` method and print them to the console.
