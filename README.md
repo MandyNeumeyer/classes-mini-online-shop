@@ -16,7 +16,7 @@ Write a `Product` class that should have 2 properties
 The constructor should take 2 parameters initializing those properties. For examples
 
 ```js
-const tracksuit = new Product("Adidas tracksuit", 150.0)
+const tracksuit = new Product("Adidas tracksuit", 150.00)
 const shoes = new Product("Puma running shoes", 85.99)
 const socks = new Product("Socks set", 4.99)
 ```
